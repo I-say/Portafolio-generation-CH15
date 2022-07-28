@@ -1,0 +1,35 @@
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+             font-family: 'Karla', sans-serif;
+            background-color: #F5F7FB;
+
+        }
+        thead {
+            color :black;
+            border: 1px solid #eeee;
+            font-weight: bold;
+        }
+        tbody {
+            color: blue;
+        }
+        tfoot {
+            color: red;
+        }
+        table, tr, td{
+            border: 1px solid black;
+            
+        }
+        th{
+            background-color: #ccc;
+        }
+
+        .App{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+
+        }
+        
