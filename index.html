@@ -1,103 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="styles/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <!-- Link a bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Link a css -->
+    <link rel="stylesheet" href="styles/main.css" />
+    <!-- Links para fuente -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-<body>
+    <!-- Aqui va el link de CDN para 5 bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
 
+  <body>
+    <header>
     <div class="App">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light mg-light">
+          <div class="container">
+            <a class="navbar-brand" href="#">MiMo</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNAv"
+              aria-controls="navbarNav"
+              aria-expand="false"
+              aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Acerca de mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-       <!--Hacemos divisor para navbar-->
-        <div class="navbar">
-            <!--Etiquetas de navbar-->
-            <nav>
-                <!--Divisor para nuestros links-->
-                <div class="logo">
-                    Logo
-                </div>
-                <div class="links">
-                    <a href="">Tecnologias</a>
-                    <a href="#formulario">Contacto</a>
-                    <a href="">Redes Sociales</a>
-                </div>
-            </nav>
 
+        <!-- container para que sea mas responsivo y mantenga espacio a los lados -->
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <img src="/public/Imagens/cr7.jpeg" class="card-img-top" alt="Breve informacion acerca de mi">
+            <div class="card-body">
+              <h5 class="card-tittle">Miguel Isay</h5>
+              <p class="card-text">Soy una persona aficinada en resolver problemas mediante la filosofia de investigacion de operaciones pero sin descuidar la calidad del producto, si necesitas una inovaccion en tus servicios ya sabes a quien buscar👍👌</p>
+              <a href="#formulario" class="btn btn-primary">Contactame</a>
+            </div>
+            
+          </div>
         </div>
+      </div>
 
-<div class="tabla-tec">
-    <table>
-        <thead>
+
+      <!-- Tabla de conocimiento comentada -->
+      <!-- <div class="tabla-tec"> 
+        <table>
+          <thead>
             <tr>
-                <th>Tecnologia</th>
-                <th>Conocimiento</th>
-                <th>End</th>
-                
+              <th>Tecnologia</th>
+              <th>Conocimiento</th>
+              <th>End</th>
             </tr>
             <tr>
-                <td>HTML5</td>
-                <td>80%</td>
-                <td>Front-end</td>
+              <td>HTML5</td>
+              <td>80%</td>
+              <td>Front-end</td>
             </tr>
             <tr>
-                <td>CSS3</td>
-                <td>40%</td>
-                <td>Front-end</td>
+              <td>CSS3</td>
+              <td>40%</td>
+              <td>Front-end</td>
             </tr>
             <tr>
-                <td>JavaScript</td>
-                <td>100%</td>
-                <td>Front-end</td>
-        </thead>
-    </table>
-</div>
+              <td>JavaScript</td>
+              <td>100%</td>
+              <td>Front-end</td>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      -->
 
-<div class="Redes">
-    <b><p>Hola, soy Miguel Isay y a continuacion te dejo mis redes</p></b>
-     <p>
-         My github <a href="https://github.com/I-say">
-         <img border="0" alt="github.gif" src="../public/imagens/github.gif" width="100" height="100">
-         </a>
-     </p>
-<hr>
-     <p>
-         My github <a href="https://www.linkedin.com/in/miguel-morales7/">
-         <img border="0" alt="linkedin.gif" src="../public/imagens/linkedin.gif" width="100" height="100">
-         </a>
-     </p>
-<hr>
-     <p>
-         My instagram <a href="https://www.instagram.com/miguel_isay/">
-         <img border="0" alt="instagram.gif" src="../public/Imagens/ig.gif" width="100" height="100">
-         </a>
-     </p>
-<hr>
-</div>
-    
-<div class="contacto" id="formulario">
-    
-   <h2>Contacto</h2>
-   <form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ" method="get" target="_blank">
-         <!-- Input text -->
-    <label for="nombre"> Nombre/empresa</label>
-    <input type="text" id="nombre">
-    <label for="mensaje">Mensaje</label>
-    <input type="text" id="mensaje">
-    <label for="edad">Edad</label>
-    <input type="text" id="edad">
-    <label for="telefono">Telefono</label>
-    <input type="text" id="telefono">
-    <input type="submit" value="Send">
-</form>
-<br>
-<br>
-</div>
 
-</div>
-   
-</body>
+      <div class="container">
+        <!-- Row para el titulo -->
+        <div class="row justify-content-center">
+          <div class="col">
+            <h2 class="text-center">Contactame</h2>
+          </div>
+        </div>
+        <!-- Row para el formulario -->
+        <div clas="row justify-content-center align-items-center">
+          <form>
+            <!-- Solamente necesito 6 columnas -->
+            <!-- mx-auto para remover margenes  -->
+            <div class="col-6 mx-auto">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartiremos su correo con nadie mas</div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+
+
+      <div class="container">
+        <div class="Redes">
+        <div class="row justify-content-center">
+          <div class="col">
+        <b><p>Hola, soy Miguel Isay y a continuacion te dejo mis redes</p></b>
+        </div>
+      </div>
+      <br>
+          My github
+          <a href="https://github.com/I-say">
+            <img
+              border="0"
+              alt="github.gif"
+              src="../public/imagens/github.gif"
+              width="100"
+              height="100"
+            />
+          </a>
+        </p>
+        <hr />
+        <p>
+          My github
+          <a href="https://www.linkedin.com/in/miguel-morales7/">
+            <img
+              border="0"
+              alt="linkedin.gif"
+              src="../public/imagens/linkedin.gif"
+              width="100"
+              height="100"
+            />
+          </a>
+        </p>
+        <hr />
+        <p>
+          My instagram
+          <a href="https://www.instagram.com/miguel_isay/">
+            <img
+              border="0"
+              alt="instagram.gif"
+              src="../public/Imagens/ig.gif"
+              width="100"
+              height="100"
+            />
+          </a>
+        </p>
+        <hr />
+      </div>
+    </div>
+
+      <!-- <div class="contacto" id="formulario"> 
+        <h2>Contacto</h2>
+        <form
+          action="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          method="get"
+          target="_blank"
+        >
+          /* Input text */
+          <label for="nombre"> Nombre/empresa</label>
+          <input type="text" id="nombre" />
+          <label for="mensaje">Mensaje</label>
+          <input type="text" id="mensaje" />
+          <label for="edad">Edad</label>
+          <input type="text" id="edad" />
+          <label for="telefono">Telefono</label>
+          <input type="text" id="telefono" />
+          <input type="submit" value="Send" />
+        </form>
+        <br />
+        <br />
+      </div>
+    </div>
+  -->
+
+
+
+    <!-- Aqui va el js de bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/main.js"></script>
+  </body>
+
+  
 </html>

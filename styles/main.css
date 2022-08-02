@@ -1,7 +1,9 @@
         body{
-            font-family: Arial, Helvetica, sans-serif;
             margin: 0;
-             font-family: 'Karla', sans-serif;
+            /* font-family: 'Karla', sans-serif; */
+            /* font-family: 'Inter', sans-serif; */
+            font-family: 'Inter', sans-serif;
+            font-family: 'Square Peg', cursive;
             background-color: #F5F7FB;
 
         }
@@ -25,11 +27,53 @@
         }
 
         .App{
-            display: flex;
+            /* display: flex; */
             align-items: center;
             justify-content: center;
             text-align: center;
             flex-direction: column;
-
         }
+
+        header{
+            position: fixed;
+            width: 100%;
+            top: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: .7rem 1.rem;
+            background-color: #eaeaea;
+            transition: top 500ms ease-in-out;
+            z-index: 1000;
+        }
+        
+
+        .links {
+            display: flex;
+            margin: 0 -1em;
+        }
+
+        .links a{
+            display: inline-block;
+            margin: 0 1em;
+        }
+
+        .logo{
+            font-weight: bold;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+        }
+
+        label{
+            margin: 10px;
+        }
+
+        nav a{
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+        }
+
+
         
